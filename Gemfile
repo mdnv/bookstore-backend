@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
+ruby '2.4.0'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -11,7 +11,7 @@ gem 'bcrypt'
 gem 'jwt', '1.5.6'
 gem 'money-rails'
 gem 'nokogiri', require: false
-gem 'pg'
+gem 'mysql2'
 gem 'puma'
 gem 'rack-cors'
 gem 'rails', '~> 5.1.0'
